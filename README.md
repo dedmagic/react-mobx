@@ -1,6 +1,6 @@
 # errands-angular-and-aspnetcore
 
-Проект для изучения Angular + тестовая площадка.
+Проект для изучения React + MobX.
 
 
 ## Техническое задание:
