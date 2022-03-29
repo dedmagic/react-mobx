@@ -1,6 +1,11 @@
 function AppFooter() {
     return (
-        <h6>Footer</h6>
+        // TODO: Стили хардкодом, переделать на Bootstrap
+        <footer style={{ position: 'absolute', bottom: 0 }} >
+            <div>
+                <span>dedmagic, 2022</span>
+            </div>
+        </footer>
     );
 }
 
