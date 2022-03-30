@@ -1,6 +1,9 @@
-# errands-angular-and-aspnetcore
+# react-mobx
 
-Проект для изучения React + MobX.
+Используемые технологии:
+- React
+- MobX
+- React-Bootstrap
 
 
 ## Техническое задание:
