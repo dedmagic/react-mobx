@@ -1,9 +1,16 @@
+import { Navbar, Container } from "react-bootstrap";
+
+import HeaderBrand from './HeaderBrand';
+import MainToolbar from './MainToolbar';
+
 function AppHeader() {
     return (
-        <div>
-            <p>Поручения</p>
-            <hr />
-        </div>
+        <Navbar bg='primary' variant='dark' expand='xxl' >
+            <Container fluid>
+                <HeaderBrand />
+                <MainToolbar />
+            </Container>
+        </Navbar>
     );
 }
 
