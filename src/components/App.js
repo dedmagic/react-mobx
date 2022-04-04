@@ -2,14 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import AppHeader from './AppHeader/AppHeader';
-import AppContent from './AppContent/AppContent';
+import MainArea from './MainArea/MainArea';
 import AppFooter from './AppFooter/AppFooter';
 
 function App() {
     return (
         <>
             <AppHeader />
-            <AppContent />
+            <MainArea />
             <AppFooter />
         </>
     );

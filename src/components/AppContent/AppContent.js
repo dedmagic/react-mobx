@@ -1,6 +1,6 @@
 function AppContent() {
     return (
-        <p>Hello world!</p>
+        <div>app content</div>
     );
 }
 
