@@ -1,13 +1,13 @@
 import { Col, Row, Container } from 'react-bootstrap';
 
-import MainMenu from '../MainMenu/MainMenu';
-import AppContent from '../AppContent/AppContent';
+import MainMenu from './MainMenu';
+import AppContent from './AppContent';
 
 function MainArea() {
     return (
         <Container fluid>
             <Row>
-                <Col sm={2}>
+                <Col sm={1}>
                     <MainMenu />
                 </Col>
                 <Col>
