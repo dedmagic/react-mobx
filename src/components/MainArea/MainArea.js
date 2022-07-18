@@ -5,7 +5,7 @@ import AppContent from './AppContent';
 
 function MainArea() {
     return (
-        <Container fluid>
+        <Container fluid className='h-100'>
             <Row>
                 <Col sm={1}>
                     <MainMenu />

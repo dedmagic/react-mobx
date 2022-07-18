@@ -1,6 +1,6 @@
 function AppContent() {
     return (
-        <div>app content</div>
+        <div className='border h-100'>app content</div>
     );
 }
 

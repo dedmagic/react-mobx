@@ -2,7 +2,7 @@ import { Nav, Row } from 'react-bootstrap';
 
 function MainMenu() {
     return (
-        <>
+        <div className='h-100 d-inline-block'>
             <Row className='h-90'>
                 <Nav className='flex-column'>
                     <Nav.Link>Поручения</Nav.Link>
@@ -21,7 +21,7 @@ function MainMenu() {
                     <Nav.Link>Помощь</Nav.Link>
                 </Nav>
             </Row>
-        </>
+        </div>
     );
 }
 
