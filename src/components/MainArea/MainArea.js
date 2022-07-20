@@ -5,9 +5,11 @@ import AppContent from './AppContent';
 
 function MainArea() {
     return (
-        <Container fluid className='h-100'>
+        // <Container fluid className='h-100'>
+        // <Container fluid className='m-auto'>
+        <Container fluid style={{ margin: 'auto' }}>
             <Row>
-                <Col sm={1}>
+                <Col sm={1} className='w-auto'>
                     <MainMenu />
                 </Col>
                 <Col>

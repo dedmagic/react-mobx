@@ -1,6 +1,6 @@
 function MainToolbar() {
     return (
-        <div>toolbar</div>
+        <div style={{ color: 'white' }}>toolbar</div>
     );
 }
 
